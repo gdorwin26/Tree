@@ -5,7 +5,7 @@ function setup()
 {
   frameRate(60);
   createCanvas(window.innerWidth - 4, window.innerHeight - 4);
-  tree[0] = new Branch(new Vec2D(width / 2, height), new Vec2D(width / 2, height - 300));
+  tree[0] = new Branch(new Vec2D(width / 2, height), new Vec2D(width / 2, height - height / 5));
 }
 
 var time = 0;
